@@ -35,11 +35,15 @@
         <div id="home" class="container tab-pane active">
           <br />
           <h3>HOME</h3>
-          <p>
+          <p class="hidemenow">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          
           </p>
-          <p>This is another paragraph.</p>
+          <p class="hidemenow">
+           <a href="https://wellsjohn220.github.io/classdemo/#home">Goto Online Page</a>
+          
+          </p>
           <button>Click me</button>
         </div>
         <div id="menu1" class="container tab-pane fade">
@@ -97,7 +101,7 @@
     });
     $(document).ready(function () {
       $("button").click(function () {
-        $("p").hide("3000");
+        $(".hidemenow").hide("3000");
         
       });
     });
