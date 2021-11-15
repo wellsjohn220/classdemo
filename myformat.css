@@ -1,0 +1,9 @@
+.col-sm-4 {
+    height: 300px; margin-left: 0%; width: 32%;
+}
+h1, h3 {
+    color: blue;
+}
+p{
+    color: cornflowerblue;
+}
